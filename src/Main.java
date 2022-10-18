@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Main {
    // task1.4
    public static void main(String[] args) {
@@ -46,14 +45,10 @@ public class Main {
 
 
        // task1.6
-       double[] Arr;
-       Arr = new double[10];
        for(int i = 1; i < 11; i++){
            double result = 1./i;
            String str = String.format("%.2f", result);
            System.out.println(str);
-           result = Math.round(result*100.0)/100.0;
-           Arr[i-1] = result;
        }
    }
 }
